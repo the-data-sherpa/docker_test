@@ -7,4 +7,4 @@ git:
   autoAction: none
   timeout: 60000
   strictHostKeyChecking: false
-  remote: git@github.com:the-data-sherpa/cribl_docker.git
+  remote: git@github.com:the-data-sherpa/docker_test.git
