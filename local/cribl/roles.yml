@@ -48,7 +48,6 @@ read_default:
 
 NocAdmins:
   policy:
-    - "* NOCworkers"
-    - GroupRead *
-    - GroupFull *
+    - '* NOCworkers'
+    - 'Group-NOCworkers NOCworkers'
   description: Noc Admins Marcos Gill and Todd Plummer

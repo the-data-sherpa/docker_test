@@ -61,18 +61,12 @@ GroupRead:
     - GET /conditions/*
     - GET /notification-targets
     - GET /notification-targets/*
-Read-VOIS-Policy:
+Group-NOCworkers:
     args:
       - groupName
     template:
-      - GET /m/${groupName}
-      - GET /m/${groupName}/*
-      - GET /master/groups/${groupName}
-      - '* /w/*'
-      - GET /master/groups
-      - GET /system/logs/group/${groupName}/*
-      - GET /ui/*
-      - GET /clui
+      - GroupFull ${groupName}
       - GET /master/workers
+      - GET /master/summary/*
 
 

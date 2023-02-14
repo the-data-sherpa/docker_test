@@ -22,4 +22,4 @@ NOCworkers:
   workerRemoteAccess: true
   isSearch: false
   estimatedIngestRate: 100
-  configVersion: 497df40
+  configVersion: f2e67d4

@@ -1,2 +1,2 @@
 {"username":"admin","first":"admin","last":"admin","email":"admin","roles":["admin"],"passwd":"wcQ6WKGsbBzCoyUCaKGIM82BzQLTnDKJZ1EuN0rKScE="}
-{"first":"test","last":"test","email":"test@test.com","roles":["read_default","user"],"username":"test","passwd":"vJpDUVhKLttDxCx1xRtmMOPl4D0V9nAENci2/ztncBw="}
+{"first":"test","last":"test","email":"test@test.com","roles":["NocAdmins","user"],"username":"test","passwd":"vJpDUVhKLttDxCx1xRtmMOPl4D0V9nAENci2/ztncBw="}
