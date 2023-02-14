@@ -1,0 +1,11 @@
+inputs:
+  in_splunk_hec:
+    disabled: false
+    host: 0.0.0.0
+    tls:
+      disabled: true
+    splunkHecAPI: /services/collector
+    splunkHecAcks: false
+    staleChannelFlushMs: 10000
+    type: splunk_hec
+    port: 8088

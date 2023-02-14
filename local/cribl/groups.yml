@@ -1,7 +1,7 @@
 default:
   description: Default Worker Group
   tags: default
-  configVersion: ae96834
+  configVersion: bf4c46f
 default_fleet:
   description: Default Fleet
   tags: default
@@ -11,7 +11,7 @@ test_group:
   isFleet: false
   workerRemoteAccess: false
   isSearch: false
-  configVersion: a291246
+  configVersion: eeb5968
 temp:
   isFleet: true
   workerRemoteAccess: true
