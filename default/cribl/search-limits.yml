@@ -1,0 +1,31 @@
+# Governs how many search processes can be running concurrently.
+# If %, the number will be calculated as: Math.max(1, numCPU x maxConcurrentSearches/100)
+# Search will be disabled if this number is set to 0.
+# Format: <number> [%]
+maxConcurrentSearches: 50%
+
+# Maximum number of concurrent executors per (coordinated) search. Capped internally
+# based on the license.
+# Format: <number>
+maxExecutorsPerSearch: 50
+
+# Maximum number of warm search processes to run on a leader or worker/edge node. A value of
+# 'auto' means that there will be 1 process on the leader and 0 on worker/edge nodes.
+# Format: <number>|<'auto'>
+warmPoolSize: auto
+
+# Governs max search duration.
+# Format: <number><s|m|h|d|w>
+maxSearchDuration: 420m
+
+# Maximum number of results to store per search.
+# Format: <number>
+maxResultsPerSearch: 50000
+
+# Amount of time to keep search artifacts around before reaping.
+# Format: <number><s|m|h>
+searchHistoryTTL: 24h
+
+# Maximum number of search jobs before reaping the oldest ones.
+# Format: <number>
+searchHistoryMaxJobs: 1000

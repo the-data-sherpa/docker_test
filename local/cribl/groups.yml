@@ -1,0 +1,25 @@
+default:
+  description: Default Worker Group
+  tags: default
+  configVersion: ae96834
+default_fleet:
+  description: Default Fleet
+  tags: default
+  isFleet: true
+  configVersion: ae96834
+test_group:
+  isFleet: false
+  workerRemoteAccess: false
+  isSearch: false
+  configVersion: a291246
+temp:
+  isFleet: true
+  workerRemoteAccess: true
+  isSearch: false
+  configVersion: dad8f3b
+NOCworkers:
+  isFleet: false
+  workerRemoteAccess: true
+  isSearch: false
+  estimatedIngestRate: 100
+  configVersion: 497df40
